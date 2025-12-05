@@ -207,8 +207,7 @@ header .fa-bars{
 }
 
 .about .row .content {
-    flex: 1 1 35rem;
-    max-width: 500px;
+    max-width: 600px; 
 }
 
 .about .row .content h3 {
@@ -220,9 +219,12 @@ header .fa-bars{
 .about .row .content p {
     font-size: 1.5rem;
     color: #444;
-    padding: .5rem 0;
     padding-top: 1rem;
-    line-height: 1.6;
+    margin-bottom: 10px;
+    line-height: 1.6;     
+    letter-spacing: 0.3px; 
+    word-spacing: 1px;    
+    text-align: justify;
 }
 
 .about .btn {
@@ -245,7 +247,7 @@ header .fa-bars{
 .skills {
     background: #fff;
     margin-bottom: 100px;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .skills .heading {
@@ -630,6 +632,10 @@ footer {
   .skills-box {
         align-items: center;  
         text-align: center;
+    }
+
+    .about .row .content p {
+        padding: 10px 20px;
     }
 }
 
