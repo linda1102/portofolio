@@ -544,7 +544,7 @@ footer {
 
 }
 
-/* Tablet & HP */ 
+/* HP */ 
 @media (max-width: 768px) { 
 
     .box-container {
@@ -562,8 +562,7 @@ footer {
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         transition: .3s ease; 
     }
-
-    /*FIX NAVBAR OPEN*/ 
+ 
     #toggler:checked ~ .navbar { 
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); 
     } 
@@ -579,8 +578,7 @@ footer {
     .home .content p { 
         font-size: 2rem;
     }
-
-    /*ABOUT SECTION MOBILE FIX*/ 
+ 
     .about .row { 
         flex-direction: column; text-align: center; 
     } 
