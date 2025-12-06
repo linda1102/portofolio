@@ -296,6 +296,34 @@ header .fa-bars{
     display: flex;;
 }
 
+.html img {
+    width: 60px;
+    height: 60px;
+    margin-left: 5rem;
+    display: flex;;
+}
+
+.css img {
+    width: 60px;
+    height: 60px;
+    margin-left: 7rem;
+    display: flex;;
+}
+
+.figma img {
+    width: 60px;
+    height: 60px;
+    margin-left: 3rem;
+    display: flex;;
+}
+
+.c img {
+    width: 60px;
+    height: 60px;
+    margin-left: 3rem;
+    display: flex;;
+}
+
 .skills-box .name {
     font-size: 20px;
     display: flex;
@@ -541,6 +569,12 @@ footer {
 
     .home { background-position: center; 
     } 
+
+    .box-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 0 0 90px;
+    }
+
 
 }
 
